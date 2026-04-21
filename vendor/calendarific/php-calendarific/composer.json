@@ -1,0 +1,38 @@
+{
+    "name": "calendarific/php-calendarific",
+    "description": "PHP library for Calendarific.com",
+    "version": "2.0.0",
+    "type": "library",
+    "keywords": [
+        "holiday",
+        "holidays",
+        "calendarindex",
+        "date",
+        "calendar",
+        "calendarific"
+    ],
+    "homepage": "https://calendarific.com",
+    "license": "MIT",
+    "authors": [{
+        "name": "Calendarific Team",
+        "email": "hello@calendarific.com",
+        "homepage": "https://calendarific.com"
+    }],
+    "require": {
+        "php": ">=7.0.0",
+        "jedkirby/json": "0.1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Calendarific\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}

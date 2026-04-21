@@ -1,0 +1,10 @@
+{
+    "require": {
+        "sendgrid/sendgrid": "^7.3",
+        "mashape/unirest-php": "^3.0",
+        "calendarific/php-calendarific": "^2.0",
+        "phpmailer/phpmailer": "^7.0",
+        "league/iso3166": "^4.4",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
